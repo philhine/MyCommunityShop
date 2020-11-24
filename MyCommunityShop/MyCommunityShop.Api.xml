@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyCommunityShop.Api</name>
+    </assembly>
+    <members>
+        <member name="T:MyCommunityShop.Api.Controllers.BasketController">
+            <summary>
+            The shopping basket Resource
+            </summary>
+        </member>
+        <member name="M:MyCommunityShop.Api.Controllers.BasketController.Post">
+            <summary>
+            Creates a new basket
+            </summary>
+            <returns>The new basket</returns>
+        </member>
+        <member name="M:MyCommunityShop.Api.Controllers.BasketController.Get(System.Int32)">
+            <summary>
+            Gets the basket contents
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyCommunityShop.Api.Controllers.BasketController.Post(System.Int32,System.Int32)">
+            <summary>
+            Adds a product to the basket
+            </summary>
+            <param name="id">Basket Id</param>
+            <param name="productId">Product Id to add</param>
+            <returns></returns>
+        </member>
+        <member name="M:MyCommunityShop.Api.Controllers.BasketController.Remove(System.Int32,System.Int32)">
+            <summary>
+            Removes a product from the basket
+            </summary>
+            <param name="id">Basket Id</param>
+            <param name="productId">Product Id to remove</param>
+            <returns></returns>
+        </member>
+        <member name="T:MyCommunityShop.Api.Controllers.OffersController">
+            <summary>
+            The Offers Resource
+            </summary>
+        </member>
+        <member name="M:MyCommunityShop.Api.Controllers.OffersController.Get">
+            <summary>
+            Gets all offers
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:MyCommunityShop.Controllers.ProductsController">
+            <summary>
+            The product resource
+            </summary>
+        </member>
+    </members>
+</doc>
