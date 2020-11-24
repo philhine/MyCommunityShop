@@ -12,7 +12,6 @@
              return new List<LinkDto>()
             {
                 new LinkDto(urlhelper.Link("GetOffers", new { }), "all", "GET"),
-               // new LinkDto(urlhelper.Link("GetBasket", new { basket.Id }), "self", "GET"),
             };
         }
     }
