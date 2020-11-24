@@ -33,7 +33,10 @@
             this.getProductByIdService = getProductByIdService ?? throw new System.ArgumentNullException(nameof(getProductByIdService));
         }
 
-        // GET: api/<ProductController>
+        /// <summary>
+        /// Gets all products
+        /// </summary>
+        /// <returns></returns>
         [HttpGet(Name = "GetProducts")]
         [ProducesResponseType(200)]
         public async Task<IActionResult> Get()
@@ -49,7 +52,11 @@
             return Ok(products);
         }
 
-        //// GET api/<ProductController>/5
+        /// <summary>
+        /// Gets products by id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet("{id}", Name = "GetProductById")]
         public async Task<IActionResult> Get(int id)
         {
