@@ -48,7 +48,7 @@ Also finishing the hypermedia links both from a client and server point was my n
 
 - Upgrade the console application to .NET Core so I could implement async a bit more seamlessly.I would like to add further functionality to create/update/delete products and offers.
 
-- Adding tests to the console application would also add to the integrity of the application as a whole and there a quite a number of areas that can be tested.
+- Adding tests to the console application would also add to the integrity of the application as a whole and there are quite a number of areas that can be tested.
 
 - Implement logging in the areas where I have left placeholders. 
 
